@@ -1,0 +1,39 @@
+#include<stdio.h>
+main()
+{
+  int a=0;
+  printf("HII SIR PLZ SELECT A DISH WHICH YOU WANT TO EAT =\n1. pizza \n2. Burger \n3. Pasta \n4. French fries \n5. Sandwich \n");
+  scanf("%d",&a);
+   switch(a)
+   {
+   case 1:
+       printf("Pizza \nPricr=239");
+       break;
+   case 2:
+       printf("Burgur \nPricr=129");
+       break;
+   case 3:
+       printf("pasta \nPricr=179");
+       break;
+   case 4:
+       printf("French Fris \nPricr=99");
+       break;
+   case 5:
+       printf("Sandwicg \nPricr=149");
+       break;
+   default : printf("sir plz order ur dish");
+   }
+}
+   
+   
+   
+   RESULT IS 
+   HII SIR PLZ SELECT A DISH WHICH YOU WANT TO EAT=
+1. pizza
+2. Burger
+3. Pasta
+4. French fries
+5. Sandwich
+   ENTER A NO = 2
+Burgur
+Pricr=129
